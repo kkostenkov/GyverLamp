@@ -173,7 +173,7 @@ bool timeSynched = false;
 uint32_t lastTimePrinted = 0U;
 
 #ifdef ESP_USE_BUTTON
-GButton touch(BTN_PIN, LOW_PULL, NORM_OPEN);
+GButton touch(BTN_PIN, HIGH_PULL, NORM_OPEN);
 #endif
 
 #ifdef OTA
